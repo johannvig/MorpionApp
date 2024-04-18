@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GameMode"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="48dp"
+        android:text="@string/choose_mode"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+
+    <ImageView
+        android:id="@+id/solo_mode"
+        android:layout_width="153dp"
+        android:layout_height="178dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/multiplayer2"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412"
+        app:srcCompat="@drawable/solo_mode" />
+
+    <ImageView
+        android:id="@+id/multiplayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bar"
+        app:srcCompat="@drawable/multiplayer2" />
+
+    <ImageView
+        android:id="@+id/rules"
+        android:layout_width="153dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solo_mode"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/rules" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201"
+        app:srcCompat="@drawable/bar" />
+
+    <ImageView
+        android:id="@+id/robot"
+        android:layout_width="133dp"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="@+id/solo_mode"
+        app:layout_constraintEnd_toEndOf="@+id/solo_mode"
+        app:layout_constraintStart_toStartOf="@+id/solo_mode"
+        app:layout_constraintTop_toTopOf="@+id/solo_mode"
+        app:layout_constraintVertical_bias="0.227"
+        app:srcCompat="@drawable/robot" />
+
+    <ImageView
+        android:id="@+id/multiplayer"
+        android:layout_width="127dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="@+id/multiplayer2"
+        app:layout_constraintEnd_toEndOf="@+id/multiplayer2"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="@+id/multiplayer2"
+        app:layout_constraintTop_toTopOf="@+id/multiplayer2"
+        app:layout_constraintVertical_bias="0.29"
+        app:srcCompat="@drawable/multiplayer" />
+
+
+
+    <ImageView
+        android:id="@+id/book"
+        android:layout_width="85dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rules"
+        app:layout_constraintEnd_toEndOf="@+id/rules"
+        app:layout_constraintStart_toStartOf="@+id/rules"
+        app:layout_constraintTop_toTopOf="@+id/rules"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/book" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="welcome">Cliquer ici pour continuer\n</string>
+    <string name="title_activity_game_mode">GameMode</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="choose_mode">Choisir un mode de jeu</string>
+    <string name="choose_pseudo">Choisir son pseudo\n</string>
+    <string name="pseudo_name">Joueur 1</string>
+    <string name="choose_level">Choisir l’AI a combattre</string>
+    <string name="play">Jouer</string>
+    <string name="player_name">Nom du pseudo</string>
+    <string name="pseudo_name2">Joueur 2</string>
+    <string name="create_game">Entrer le code pour créer la partie</string>
+    <string name="join_game">Entrer le code pour rejoindre la partie</string>
+    <string name="code_game">Entrer votre code</string>
+    <string name="back">Retour</string>
+    <string name="who_play_first">Qui joue en premier ?</string>
+    <string name="opponent">Votre adversaire</string>
+    <string name="you">Vous</string>
+    <string name="choose_online_game_option">"Voulez-vous créer ou rejoindre la partie ?"</string>
+    <string name="create">Créer</string>
+    <string name="join">Rejoindre</string>
+
+    <string name="rules_of_tictactoe">
+        "Règles du Morpion:\n\n
+        1. Le jeu est joué sur une grille de 3x3 cases.\n
+        2. Vous êtes X, votre adversaire est O. Les joueurs mettent leur symbole dans une case vide à tour de rôle.\n
+        3. Le premier à obtenir trois de ses symboles en ligne (horizontalement, verticalement ou en diagonale) est le gagnant.\n
+        4. Si tous les 9 cases sont remplies sans que trois symboles identiques ne soient alignés, la partie est une égalité."
+    </string>
+
+
+    <string-array name="spinner_items">
+        <item>Facile</item>
+        <item>Moyen</item>
+        <item>Difficile</item>
+    </string-array>
+</resources>

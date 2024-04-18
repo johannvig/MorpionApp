@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.Board.GameBoard">
+
+
+    <TextView
+        android:id="@+id/versus"
+        android:layout_width="29dp"
+        android:layout_height="30dp"
+        android:text=":"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/who_play"
+        app:layout_constraintEnd_toStartOf="@+id/square2"
+        app:layout_constraintHorizontal_bias="0.601"
+        app:layout_constraintStart_toEndOf="@+id/square1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/who_play"
+        app:layout_constraintEnd_toStartOf="@+id/versus"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toEndOf="@+id/square1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/who_play"
+        app:layout_constraintEnd_toStartOf="@+id/square2"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="@+id/score1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+
+    <ImageView
+        android:id="@+id/square1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/who_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/score" />
+
+    <ImageView
+        android:id="@+id/square2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/who_play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toEndOf="@+id/square1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/score" />
+
+
+    <ImageView
+        android:id="@+id/board"
+        android:layout_width="348dp"
+        android:layout_height="344dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808"
+        app:srcCompat="@drawable/board" />
+
+    <TextView
+        android:id="@+id/who_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A qui de jouer"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
+
+    <TextView
+        android:id="@+id/pseudo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom joueur 1"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/square1"
+        app:layout_constraintEnd_toEndOf="@+id/square1"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/square1"
+        app:layout_constraintTop_toTopOf="@+id/square1"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <TextView
+        android:id="@+id/pseudo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom joueur 2"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/square2"
+        app:layout_constraintEnd_toEndOf="@+id/square2"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/square2"
+        app:layout_constraintTop_toTopOf="@+id/square2"
+        app:layout_constraintVertical_bias="0.184" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="107dp"
+        android:layout_height="103dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="98dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="107dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="98dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="0.493"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="106dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="0.008"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="98dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="105dp"
+        android:layout_height="107dp"
+        app:layout_constraintBottom_toBottomOf="@+id/board"
+        app:layout_constraintEnd_toEndOf="@+id/board"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="@+id/board"
+        app:layout_constraintTop_toTopOf="@+id/board"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="?attr/selectableItemBackground" />
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/square1"
+        app:layout_constraintEnd_toEndOf="@+id/square1"
+
+
+        app:layout_constraintStart_toStartOf="@+id/square1"
+        app:srcCompat="@drawable/ic_cross" />
+
+    <ImageView
+        android:id="@+id/circle"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/square2"
+        app:layout_constraintEnd_toEndOf="@+id/square2"
+        app:layout_constraintStart_toStartOf="@+id/square2"
+        app:layout_constraintTop_toTopOf="@+id/square2"
+        app:layout_constraintVertical_bias="0.767"
+        app:srcCompat="@drawable/ic_circle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
