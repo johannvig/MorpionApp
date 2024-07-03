@@ -34,7 +34,7 @@ The application uses the MVVM (Model-View-ViewModel) architecture to ensure easy
 </p>
 
 <p align="center">
-  <img src="https://github.com/johannvig/Tic-Tac-Toe-Ultimate/assets/102874093/fc742362-7600-4dd0-bc32-ac64978035b5" alt="Screenshot 2024-04-30 201142">
+  <img src="https://github.com/johannvig/Tic-Tac-Toe-Ultimate/assets/102874093/fc742362-7600-4dd0-bc32-ac64978035b5" width="500" alt="Screenshot 2024-04-30 201142">
 </p>
 
 
