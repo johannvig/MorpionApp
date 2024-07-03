@@ -29,10 +29,14 @@ The application uses the MVVM (Model-View-ViewModel) architecture to ensure easy
 - **Medium**: Minimax algorithm for optimal play
 - **Hard**: ChatGPT API for advanced strategies
 
+<p align="center">
+  <img src="https://github.com/johannvig/Detection-color-blind-person/assets/102874093/55752f11-b57c-45f1-9ee3-1f77acc6ac16" alt="Screenshot 2024-04-30 201142">
+</p>
 
+<p align="center">
+  <img src="https://github.com/johannvig/Detection-color-blind-person/assets/102874093/55752f11-b57c-45f1-9ee3-1f77acc6ac16" alt="Screenshot 2024-04-30 201142">
+</p>
 
-![image](https://github.com/johannvig/MorpionApp/assets/102874093/be466958-dd16-404d-b6d1-6e4ae3ac98bb)
-![image](https://github.com/johannvig/MorpionApp/assets/102874093/cd2f84cc-59fa-40b2-aa5c-5904770bca85)
 
 
 
