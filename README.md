@@ -1,4 +1,3 @@
-![image](https://github.com/johannvig/MorpionApp/assets/102874093/583c7653-f864-4bba-b072-af526b147c65)
 
 
 
