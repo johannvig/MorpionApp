@@ -28,9 +28,9 @@ The application uses the MVVM (Model-View-ViewModel) architecture to ensure easy
 - **Easy**: Random move selection
 - **Medium**: Minimax algorithm for optimal play
 - **Hard**: ChatGPT API for advanced strategies
-
+</br>
 <p align="center">
-  <img src="https://github.com/johannvig/Tic-Tac-Toe-Ultimate/assets/102874093/134829bb-6bd6-4191-a1a1-83785ba7ce06" alt="Screenshot 2024-04-30 201142">
+  <img src="https://github.com/johannvig/Tic-Tac-Toe-Ultimate/assets/102874093/134829bb-6bd6-4191-a1a1-83785ba7ce06" width="500" alt="Screenshot 2024-04-30 201142">
 </p>
 
 <p align="center">
